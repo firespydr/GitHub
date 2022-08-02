@@ -1,0 +1,70 @@
+Adjust Time Zone
+Set-TimeZone -Id "Central Standard Time" -PassThru
+
+Set Power Options for Plugged in.
+powercfg ** See Default power plan
+
+Setup Clipboard Sharing, only history, not accross devices
+
+Confirm Chocolatey Install
+Run ChocoApps.ps1 to install ChocoApps
+
+Change Screen Timeout
+
+Linkpoint to Outlook
+
+
+Install Visual Studio Code, Powershell (PSWH) AND Git via Winget
+VSCODE
+winget install --id Windows.visualstudiocode --source winget
+
+Powershell
+winget install --id Windows.Powershell --source winget
+
+GIT
+winget install --id Git.Git -e --source winget
+
+Powershell Setup 7.x
+Install-Module Microsoft.Graph -Scope AllUsers
+Install-Module -Name ExchangeOnlineManagement
+Install-Module AzureAD
+Install-PackageProvider -Name NuGet -Force
+Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+
+Check for WinRM
+Enable WinRM (network must be private)
+winrm quickconfig
+
+Windows Terminal SETUP
+Set Default Profile
+Set Default Terminal App to Windows Terminal
+Replace settings.json with Profile
+
+VSCODE SETUP
+Set Default Terminal to PSWH
+Increase Buffer to ????
+Set Theme to Abyss
+Install VSCODE Extensions
+Sign into BitWarden on Edge
+
+Peripherials
+Install Logitech Options 
+Sign into Logitech
+Install Steel Series GG
+
+Add Personal OneDrive to Laptop
+Add Gmail to Outlook
+
+Setup Powertoys
+Enable OneNote in Powertoys Run
+Setup FancyZones again
+
+Install Printer
+
+VPN
+Install Azure VPN Client
+Import VPN Profile
+Run Scripts in Onenote article to MAP S if needed. 
+
+
+
